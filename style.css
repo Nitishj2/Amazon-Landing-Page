@@ -1,0 +1,417 @@
+    * {
+        margin: 0px;
+        padding: 0px;
+        border: border-box;
+        font-family: Arial;
+    }
+
+    .navbar {
+        height: 60px;
+        color: white;
+        background-color: #0f1111;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .navlogo {
+        height: 50px;
+        width: 110px;
+    }
+
+    .logo {
+        background-image: url("amazon_logo.png");
+        height: 50px;
+        background-size: cover;
+        width: 110px;
+    }
+
+    .border {
+        border: 2px solid transparent;
+    }
+
+    .border:hover {
+        border: 1.5px solid white;
+    }
+
+    .navaddress {
+        padding: 10px;
+    }
+
+    .add-first {
+        color: #cccccc;
+        font-size: 0.85rem;
+        margin-left: 15px;
+    }
+
+    .add-sec {
+        font-size: 1rem;
+        margin-left: 3px;
+    }
+
+    .add-icon {
+        display: flex;
+    }
+
+    .navsearch {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: greenyellow;
+        width: 600px;
+        height: 40px;
+        border-radius: 4px;
+    }
+
+    .navsearch:hover {
+        border: 2px solid orange;
+    }
+
+    .search-select {
+        background-color: #f3f3f3;
+        width: 50px;
+        text-align: center;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+        border: none;
+        height: 40px;
+    }
+
+    .search-input {
+        width: 100%;
+        height: 100%;
+        border: none;
+        padding-left: 10px;
+        font-size: 1.1rem;
+    }
+
+    .search-icon {
+        width: 45px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.2rem;
+        background-color: rgb(248, 167, 4);
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        color: #0f1111;
+    }
+
+    .navsign {
+        padding: 10px;
+    }
+
+    .sign-first {
+        font-size: 0.85rem;
+    }
+
+    .sign-sec {
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    .navreturn {
+        padding: 10px;
+    }
+
+    .return-first {
+        font-size: 0.85rem;
+    }
+
+    .return-sec {
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    .navcart {
+        padding: 10px;
+        font-size: 1rem;
+        display: flex;
+    }
+
+    .navcart i {
+        font-size: 30px;
+    }
+
+    .panel {
+        height: 40px;
+        background-color: #222f3d;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        color: white;
+    }
+
+    .panelall {
+        height: 40px;
+        display: flex;
+        align-items: center;
+    }
+
+    .paneloption {
+        width: 70%;
+        font-size: 1rem;
+        margin: 5px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+
+    .paneloption-div1 {
+        height: 40px;
+        width: 100px;
+        display: flex;
+        align-items: center;
+        margin-left: 15px;
+    }
+
+    .paneloption-div2 {
+        height: 40px;
+        width: 130px;
+        display: flex;
+        align-items: center;
+        margin-left: 15px;
+    }
+
+    .paneloption-div3 {
+        height: 40px;
+        width: 70px;
+        display: flex;
+        align-items: center;
+        margin-left: 15px;
+    }
+
+    .paneloption-div4 {
+        height: 40px;
+        width: 80px;
+        display: flex;
+        align-items: center;
+        margin-left: 15px;
+    }
+
+    .paneloption-div5 {
+        height: 40px;
+        width: 40px;
+        display: flex;
+        align-items: center;
+        margin-left: 15px;
+    }
+
+    .paneldeals {
+        font-size: 1.1rem;
+        font-weight: 700;
+    }
+
+    .main-section {
+        background-image: url("image1.jpg");
+        height: 600px;
+        background-size: cover;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .box {
+        width: 20%;
+        height: 400px;
+        margin-top: 250px;
+        padding: 20px 0px 15px;
+        background-color: white;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .beauty {
+        background-image: url("box4.jpg");
+        background-size: cover;
+        height: 90%;
+        padding-left: 10px;
+    }
+
+    .box2 {
+        display: flex;
+        justify-content: space-around;
+        height: 170px;
+    }
+
+    .box21 {
+        background-image: url("box21.jpg");
+        background-size: cover;
+        height: 165px;
+        width: 48.5%;
+        margin-top: 5px;
+    }
+
+    .content {
+        display: flex;
+        justify-content: space-around;
+        margin-right: 10px;
+    }
+
+    .device {
+        background-image: url("box3.jpg");
+        background-size: cover;
+        height: 90%;
+    }
+
+    .electronics {
+        background-image: url("box5.jpg");
+        background-size: cover;
+        height: 90%;
+    }
+
+    .main {
+        background-image: linear-gradient(to right, rgb(153, 249, 246) 30%, rgb(232, 206, 241) 45%, rgb(231, 202, 201) 100%);
+        height: 500px;
+        padding-top: 200px;
+    }
+
+    .main1 {
+        display: flex;
+        justify-content: space-evenly;
+        height: 450px;
+        width: 100%
+    }
+
+    .box10 {
+        width: 20%;
+        height: 400px;
+        padding: 20px 0px 15px;
+        background-color: white;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .health {
+        background-image: url("box6.jpg");
+        background-size: cover;
+        height: 90%;
+    }
+
+    .school {
+        background-image: url("box7.jpg");
+        background-size: cover;
+        height: 90%;
+    }
+
+    .toys {
+        background-image: url("box8.jpg");
+        background-size: cover;
+        height: 90%;
+    }
+
+    .home {
+        background-image: url("box9.jpg");
+        background-size: cover;
+        height: 90%;
+    }
+
+    .section2 {
+        display: flex;
+        justify-content: center;
+        height: 130px;
+    }
+
+    .login {
+        margin-top: 20px;
+        padding-top: 5px;
+        display: block;
+        align-items: center;
+    }
+
+    .inp-btn {
+        background-color: rgb(234, 187, 33);
+        height: 30px;
+        width: 310px;
+        border-radius: 5px;
+        color: black;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    .top {
+        height: 50px;
+        background-color: #394a5c;
+        width: 100%;
+        color: white;
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .section3 {
+        background-color: #222f3d;
+        height: 450px;
+    }
+
+    .section4 {
+        background-color: #222f3d;
+        display: flex;
+        justify-content: space-evenly;
+        color: white;
+    }
+
+    .textd {
+        text-decoration: none;
+        color: rgb(136, 135, 135);
+    }
+
+    .textd:hover {
+        color: red;
+        text-decoration: underline;
+    }
+
+    .design {
+        padding-top: 15px;
+    }
+
+    .para {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    .para1 {
+        width: 20%;
+        margin-top: 25px;
+        color: white;
+    }
+
+    .para2 {
+        width: 20%;
+        margin-top: 25px;
+    }
+
+    .para3 {
+        width: 20%;
+        margin-top: 25px;
+    }
+
+    .para4 {
+        width: 20%;
+        margin-top: 25px;
+    }
+
+    .section5 {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .rect1 {
+        height: 70px;
+        width: 150px;
+        background-image: url("amazon_logo.png");
+        background-size: cover;
+    }
+
+    .rect2 {
+        height: 40px;
+        width: 200px;
+        border: 1.2px solid white;
+        margin-top: 10px;
+        margin-left: 15px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 3px;
+    }
